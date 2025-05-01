@@ -1,0 +1,24 @@
+{
+    "model_name": "RandomForestClassifier",
+    "version": "1.0",
+    "trained_on": "2025-05-01",
+    "threshold": 0.4,
+    "n_estimators": 300,
+    "class_weight": {
+        "imperfect": 1,
+        "perfect": 5
+    },
+    "cross_validation_folds": 3,
+    "metrics": {
+        "roc_auc": 1.0,
+        "pr_auc": 1.0,
+        "f1_score_weighted": 0.97,
+        "perfect_class_recall": 0.75
+    },
+    "preprocessing": {
+        "imputer": "mean strategy",
+        "scaler": "StandardScaler",
+        "feature_selection": "VarianceThreshold > 1e-6",
+        "zero_handling": "0s treated as missing (NaN)"
+    }
+}
