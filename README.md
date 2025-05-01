@@ -1,5 +1,5 @@
 HEAD
-# Random Forest Classifier for Signal-Based Classification
+# Random Forest Classifier for Signal-Based Molecular Biology Classification
 
 This project implements a Random Forest model to classify signal data as either `"perfect"` or `"imperfect"` based on time-series features. The model was trained on experimental signal data, optimized using probability threshold tuning, and evaluated using both train-test split and stratified cross-validation.
 
@@ -111,5 +111,4 @@ matplotlib
 For questions or collaboration, contact: **Faith Edafetanure-Ibeh**  
 Email: *Edafetanureibeh.faith@gmail.com*
 
-# Molecular-Biology-Machine-learning-classification
- ebfa93f16f3cb7884e2876e592f964293add9236
+
