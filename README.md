@@ -21,6 +21,7 @@ This project implements a Random Forest model to classify signal data as either 
 ├── requirements.txt               # Required Python packages
 ├── Experiment_Report.docx         # Experiment details
 ├── Visualizations                 # Folder containing visualizations
+├── model_metadata.json            # model details
 └── README.md                      # Project documentation
 ```
 
